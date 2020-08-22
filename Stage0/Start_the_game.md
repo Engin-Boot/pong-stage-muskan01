@@ -24,7 +24,7 @@ This module is responsible to start the game
 
   Then - New game starts
   
-  ### Scenario: Selecting exit game option from the game menu
+### Scenario: Selecting exit game option from the game menu
 
   Given - Menu appears:
   Press S to start the new game
@@ -34,7 +34,7 @@ This module is responsible to start the game
 
   Then - game closes
   
-  ### Scenario: Enter the names of player 1 and player 2
+### Scenario: Enter the names of player 1 and player 2
 
   Given - New game starts
 
