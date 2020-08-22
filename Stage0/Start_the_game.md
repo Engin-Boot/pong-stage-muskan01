@@ -1,4 +1,4 @@
-# Start_the_game
+# Beginning the game
 
 ## Feature
 
@@ -18,7 +18,7 @@ This module is responsible to start the game
 
   Given - Menu appears:
   Press S to start the new game
-  Press esc to exit the game
+  Press E to exit the game
 
   When - Player presses S
 
@@ -28,9 +28,9 @@ This module is responsible to start the game
 
   Given - Menu appears:
   Press S to start the new game
-  Press esc to exit the game
+  Press E to exit the game
 
-  When - Player presses esc
+  When - Player presses E
 
   Then - game closes
   
@@ -38,6 +38,16 @@ This module is responsible to start the game
 
   Given - New game starts
 
-  When - New window pop up appers asking the names of player 1 and 2
+  When - New window pop up appears asking the names of player 1 and 2
 
   Then - Enter the names
+
+### Scenario: Initial serve 
+
+  Given - Menu appears:
+  Press B to serve the ball
+  Press E to exit the game
+
+  When - Player press B
+
+  Then - Set off module Player1_action
