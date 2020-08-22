@@ -50,4 +50,4 @@ This module is responsible to start the game
 
   When - player press B
 
-  Then - activate the module Player1_action
+  Then - activate the module Player1_action.md
