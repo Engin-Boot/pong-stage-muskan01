@@ -1,4 +1,4 @@
-# Beginning the game
+# Start the game
 
 ## Feature
 
