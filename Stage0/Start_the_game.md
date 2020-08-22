@@ -48,6 +48,6 @@ This module is responsible to start the game
   Press B to serve the ball
   Press E to exit the game
 
-  When - Player press B
+  When - player press B
 
-  Then - Set off module Player1_action
+  Then - activate the module Player1_action
