@@ -32,7 +32,7 @@ This module is responsible to start the game
 
   When - Player presses E
 
-  Then - Activate the module Exit-game.md
+  Then - Activate the module Exit-game
   
 ### Scenario: Enter the names of player 1 and player 2
 
