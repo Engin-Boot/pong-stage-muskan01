@@ -42,7 +42,7 @@ This module is responsible to start the game
 
   Then - Enter the names
 
-### Scenario: Initial serve 
+### Scenario: Initial serve
 
   Given - Menu appears:
   Press B to serve the ball
