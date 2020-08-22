@@ -17,7 +17,7 @@ This module is responsible to start the game
 ### Scenario: Selecting new game option from the game menu
 
   Given - Menu appears:
-  Press S to start the new game
+  Press S to start the new game,
   Press E to exit the game
 
   When - Player presses S
@@ -27,12 +27,12 @@ This module is responsible to start the game
 ### Scenario: Selecting exit game option from the game menu
 
   Given - Menu appears:
-  Press S to start the new game
+  Press S to start the new game,
   Press E to exit the game
 
   When - Player presses E
 
-  Then - game closes
+  Then - Activate the module Exit-game.md
   
 ### Scenario: Enter the names of player 1 and player 2
 
@@ -45,7 +45,7 @@ This module is responsible to start the game
 ### Scenario: Initial serve
 
   Given - Menu appears:
-  Press B to serve the ball
+  Press B to serve the ball,
   Press E to exit the game
 
   When - player press B
