@@ -1,17 +1,40 @@
-# -give-this-module-a-name
+# Player-2-score
 
 ## Feature
 
-What part of the game does this module deliver?
+This module is responsible to update and save the score of player 2.
+The variable which stores score of player 2 is score-two.
 
 ## Acceptance Criteria
 
-### Scenario: -describe-a-scenario-of-this-module
+### Scenario: Score update by plus 1
 
-  Given -give-initial-values-and-conditions
+  Given - ball is coming towards racket 1
 
-  When -event-happens
+  When - racket 1 miss the ball
 
-  Then -module-does-this
+  Then - score-two = score-two + 1
 
-### -add-scenario-if-needed
+### Scenario: Player 2 is winner
+
+  Given - score-two = score-two + 1
+
+  When - score-two > or = 15
+
+  Then - Display Player 2 winner
+  
+### Scenario: Player 2 is not winner
+
+  Given - score-two = score-two + 1
+
+  When - score-two < 15
+
+  Then - activate the module Player-1-action
+  
+### Scenario: After declaring Player 2 winner
+
+  Given - score-two > or = 15
+
+  When - Display Player 2 winner
+
+  Then - activate the module Exit-game
