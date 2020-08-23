@@ -38,5 +38,3 @@ The variable which stores score of player 1 is score-one.
   When - Display Player 1 winner
 
   Then - activate the module Exit-game
-
-
