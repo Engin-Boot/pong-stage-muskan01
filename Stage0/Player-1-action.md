@@ -2,7 +2,7 @@
 
 ## Feature
 
-This module defines different actions taken by player 1 in different situations
+This module defines different actions taken by player 1 in different scenarios
 and the respective results which takes places.
 The racket associated with player 1 is racket 1.
 
