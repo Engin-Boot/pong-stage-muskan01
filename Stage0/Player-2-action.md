@@ -5,6 +5,7 @@
 This module defines different actions taken by player 2 in different scenarios
 and the respective results which takes places.
 The racket associated with player 2 is racket 2.
+Also, this holds all the dimensions, speed and movement of racket 2
 
 ## Acceptance Criteria
 
