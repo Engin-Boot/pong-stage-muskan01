@@ -12,7 +12,7 @@ to throw the ball towards Player 1 after the initial serve.
 
 After **Player-1-action** module takes the action which can be **hit the ball**,
 **miss the ball** or **exit the game**,
-the respective result takes playes which can give control to
+the respective result takes places which can give control to
 any one of the modules **Ball-move**,
 **player-2-score** or **Exit-game**.
 **Ball-move module** is responsible to hold every movement of the ball.
