@@ -2,7 +2,7 @@
 
 ## Feature
 
-This module is reponsible to update and save the score of player 1.
+This module is responsible to update and save the score of player 1.
 The variable which stores score of player 1 is score-one.
 
 ## Acceptance Criteria
