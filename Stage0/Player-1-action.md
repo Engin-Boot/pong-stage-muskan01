@@ -2,7 +2,9 @@
 
 ## Feature
 
-This module defines different actions taken by player 1 in different situations and the respective results which takes places. The racket associated with player 1 is racket 1.
+This module defines different actions taken by player 1 in different situations and 
+the respective results which takes places.
+The racket associated with player 1 is racket 1.
 
 ## Acceptance Criteria
 
@@ -27,7 +29,6 @@ This module defines different actions taken by player 1 in different situations 
   Given - ball is coming towards player 1
 
   When - player 1 press E
-
+  
   Then - activate module Exit-game
-
 
