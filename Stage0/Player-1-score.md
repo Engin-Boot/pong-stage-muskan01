@@ -29,7 +29,7 @@ The variable which stores score of player 1 is score-one.
 
   When - score-one < 15
 
-  Then - activate the module Player-2-action
+  Then - activate the module Ball-move
   
 ### Scenario: After declaring Player 1 winner
 
