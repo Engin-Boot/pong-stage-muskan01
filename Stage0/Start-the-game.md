@@ -38,7 +38,7 @@ This module is responsible to start the game
 
   Given - New game starts
 
-  When - New window pop up appears asking the names of player 1 and 2
+  When - New window pop up asking the names of player 1 and 2
 
   Then - Enter the names
 
