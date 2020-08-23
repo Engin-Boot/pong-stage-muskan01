@@ -23,7 +23,7 @@ Also, this holds all the dimensions, speed and movement of racket 1
 
   When - racket 1 hit the ball
 
-  Then - activate module Player-2-action
+  Then - activate module Ball-move
   
 ### Scenario: Player 1 exit the game
 
