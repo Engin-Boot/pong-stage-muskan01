@@ -2,7 +2,7 @@
 
 ## Feature
 
-This module holds the infromation about the ball
+This module holds the information about the ball
 that includes dimension, speed and movement.
 Racket 1 is associated with player 1.
 Racket 2 is associated with player 2.
