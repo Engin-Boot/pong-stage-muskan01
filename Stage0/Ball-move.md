@@ -15,7 +15,7 @@ Racket 2 is associated with player 2.
 
   When - press B
 
-  Then - ball goes towards left with speed of 1m/sec
+  Then - ball goes towards left with speed of 1 m/sec
          which activates player-action
 
 ### Scenario: racket 1 hit the ball
@@ -24,7 +24,7 @@ Racket 2 is associated with player 2.
 
   When - racket 1 hit the ball
 
-  Then - ball goes towards right with speed of 0.5m/sec
+  Then - ball goes towards right with speed of 0.5 m/sec
          which activates player-action
   
 ### Scenario: racket 2 hit the ball
@@ -33,7 +33,7 @@ Racket 2 is associated with player 2.
 
   When - racket 2 hit the ball
 
-  Then - ball goes towards left  with speed of 0.5m/sec
+  Then - ball goes towards left  with speed of 0.5 m/sec
           which activates player-action
   
 ### Scenario: racket 1 miss the ball
@@ -44,7 +44,7 @@ Racket 2 is associated with player 2.
   And - ball goes beyond the racket 1
   And - ball disappears after 2 sec
 
-  Then - ball appears from bottom goes towards left with speed of 1m/sec
+  Then - ball appears from bottom goes towards left with speed of 1 m/sec
          which activates player-action
   
 ### Scenario: racket 2 miss the ball
@@ -55,5 +55,5 @@ Racket 2 is associated with player 2.
   And - ball goes beyond the racket 2
   And - ball disappears after 2 sec
 
-  Then - ball appears from bottom goes towards right  with speed of 1m/sec
+  Then - ball appears from bottom goes towards right  with speed of 1 m/sec
          which activates player-action
