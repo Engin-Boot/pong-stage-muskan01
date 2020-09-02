@@ -3,7 +3,7 @@
 ## Feature
 
 This module holds the information about the ball
-that includes dimension, speed and movement.
+that includes speed and movement.
 Racket 1 is associated with player 1.
 Racket 2 is associated with player 2.
 
@@ -15,7 +15,8 @@ Racket 2 is associated with player 2.
 
   When - press B
 
-  Then - ball goes towards left which activates player-action
+  Then - ball goes towards left with speed of 1m/sec 
+         which activates player-action
 
 ### Scenario: racket 1 hit the ball
 
@@ -23,7 +24,8 @@ Racket 2 is associated with player 2.
 
   When - racket 1 hit the ball
 
-  Then - ball goes towards right which activates player-action
+  Then - ball goes towards right with speed of 0.5m/sec
+         which activates player-action
   
 ### Scenario: racket 2 hit the ball
 
@@ -31,7 +33,8 @@ Racket 2 is associated with player 2.
 
   When - racket 2 hit the ball
 
-  Then - ball goes towards left which activates player-action
+  Then - ball goes towards left  with speed of 0.5m/sec
+          which activates player-action
   
 ### Scenario: racket 1 miss the ball
 
@@ -41,7 +44,8 @@ Racket 2 is associated with player 2.
   And - ball goes beyond the racket 1
   And - ball disappears after 2 sec
 
-  Then - ball appears from bottom goes towards left which activates player-action
+  Then - ball appears from bottom goes towards left with speed of 1m/sec
+         which activates player-action
   
 ### Scenario: racket 2 miss the ball
 
@@ -51,4 +55,5 @@ Racket 2 is associated with player 2.
   And - ball goes beyond the racket 2
   And - ball disappears after 2 sec
 
-  Then - ball appears from bottom goes towards right which activates player-action
+  Then - ball appears from bottom goes towards right  with speed of 1m/sec
+         which activates player-action
