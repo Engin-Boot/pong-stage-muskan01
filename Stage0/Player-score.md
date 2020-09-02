@@ -2,12 +2,12 @@
 
 ## Feature
 
-This module is responsible to update and save the score of player 1 & 2
-The variable which stores score of player 1 is score-one
-The variable which stores score of player 2 is score-two
+This module is responsible to update and save the score of player 1 & 2.
+The variable which stores score of player 1 is score-one.
+The variable which stores score of player 2 is score-two.
 The terms "player","racket" ans "score" is used in the general sense and
 can be anyone player 1 or player 2 with
-racket 1 or racket 2 and score-one and score-two
+racket 1 or racket 2 and score-one and score-two.
 Also, this is a general module and will be instantiated for both players.
 
 ## Acceptance Criteria
