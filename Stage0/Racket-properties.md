@@ -8,8 +8,8 @@ This module is holds properties of both rackets.
 
 ### Scenario:
 
-  Given - 
+  Given -
 
-  When - 
+  When -
 
   Then -
