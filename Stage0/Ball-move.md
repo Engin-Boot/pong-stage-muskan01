@@ -15,7 +15,7 @@ Racket 2 is associated with player 2.
 
   When - press B
 
-  Then - ball goes towards left with speed of 1m/sec 
+  Then - ball goes towards left with speed of 1m/sec
          which activates player-action
 
 ### Scenario: racket 1 hit the ball
