@@ -6,10 +6,10 @@ This module is holds properties of both rackets.
 
 ## Acceptance Criteria
 
-### Scenario:
+### Scenario:Scenario
 
-  Given -
+  Given - condition
 
-  When -
+  When - Triggers
 
-  Then -
+  Then - Action
