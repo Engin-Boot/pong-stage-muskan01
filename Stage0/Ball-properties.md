@@ -6,11 +6,10 @@ This module holds the dimensions and coordinates of ball
 
 ## Acceptance Criteria
 
-### Scenario: 
+### Scenario:
 
-  Given - 
+  Given -
 
   When -
 
-  Then - 
-
+  Then -
